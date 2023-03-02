@@ -23,8 +23,7 @@ jobs:
         token: "${{ SECRETS.GITHUB_TOKEN }}"
 
       -name: Lint
-        run: |
-          selene ./modules
+        run: selene ./modules
 
   style:
     name: Styling
