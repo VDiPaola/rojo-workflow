@@ -22,7 +22,7 @@ jobs:
         version: "^1.0.0"
         token: "${{ SECRETS.GITHUB_TOKEN }}"
 
-    -name: Lint
+    - name: Lint
       run: |
         selene ./modules
 
