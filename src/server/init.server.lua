@@ -1,7 +1,3 @@
 print("Hello world, from server!")
 
-local x = 5
-local y = 3
-
-y = x
-x = y
+workspace.Baseplate.Color = Color3.new(0, 1, 0)

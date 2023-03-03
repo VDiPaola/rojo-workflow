@@ -6,4 +6,5 @@
 rojo = "rojo-rbx/rojo@7.2.1"
 selene = "Kampfkarren/selene@0.24.0"
 StyLua = "JohnnyMorganz/StyLua@0.16.1"
+rbxcloud = "Sleitnick/rbxcloud@0.3.0"
 # rojo = "rojo-rbx/rojo@6.2.0"
