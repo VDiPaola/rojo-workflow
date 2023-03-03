@@ -31,10 +31,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - uses: JohnnyMorganz/stylua-action@1.0.0
+    - uses: JohnnyMorganz/stylua-action@v2
       with:
-        token: "${{ SECRETS.GITHUB_TOKEN }}"
-        args: --glob '**/*.lua' -- src
-      
-    - name: check
-      run: stylua --check .
+      token: ${{ secrets.GITHUB_TOKEN }}
+      version: latest
+      args: --check .

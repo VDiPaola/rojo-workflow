@@ -1,0 +1,30 @@
+# Deploy any time code is pushed to the 'main' branch
+name: Deploy to production
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: Roblox/setup-foreman@v1
+        name: Install Foreman
+        with:
+          version: "^1.0.0"
+          token: ${{ SECRETS.GITHUB_TOKEN }}
+
+      - run: rojo build -o game.rbxl
+
+      - name: Publish
+        shell: bash
+        env:
+          UID: 4442520486              # Universe ID
+          PID: 12666614996              # Place ID
+          API_KEY: ${{ secrets.key }} # API Key (keep this in your GitHub Repository Secrets)
+          FILE: game.rbxl         # Roblox place file (e.g. might have a step before this to build the file with Rojo)
+
+        run: rbxcloud experience publish -a "$API_KEY" -u "$UID" -p "$PID" -t published -f "$FILE"
