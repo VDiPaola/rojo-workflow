@@ -1,0 +1,44 @@
+Rojo - framework for creating games with file system
+aftman/foreman - package manager
+wally - package manager for roblox
+selene - linter
+StyLua - opinionated Lua code formatter
+Knit - game framework for common useful tasks
+Roact - React but lua
+Rodux - Redux but lua
+Roact Rodux - react redux for lua
+roblox-ts - typescript to lua compiler (rbxts/knit rbxts/roact @rbxts/rodux @rbxts/types @rbxts/services)
+moonwave - docusaurus documentation creator from comments
+rbxcloud - auto publish game
+Cmds - chat commands integration
+
+
+https://github.com/Roblox/roact/
+https://github.com/Sleitnick/Knit
+https://github.com/roblox-ts/rbx-rodux
+https://github.com/roblox-ts/rbx-roact-rodux
+https://github.com/roblox-ts/eslint-plugin-roblox-ts
+https://github.com/roblox-ts/roblox-ts
+https://github.com/evaera/moonwave
+https://github.com/rojo-rbx/rojo
+
+templates for roblox-ts
+https://github.com/roblox-ts/create-roblox-ts
+
+
+extras:
+inspect - display lua tabbles for testing
+https://github.com/roblox-ts/inspect
+testez - testing framework
+https://github.com/roblox-ts/testez
+
+
+
+good video
+https://www.youtube.com/watch?v=sEnNjNakXT8
+
+knit/rojo/wall
+https://www.youtube.com/watch?v=tgndvNQ5agA
+
+knit
+https://www.youtube.com/watch?v=P8mtVyBXkXs

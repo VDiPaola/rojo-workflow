@@ -26,10 +26,15 @@
 
     "StarterPlayer": {
       "StarterPlayerScripts": {
-        "$className": "StarterPlayerScripts",
         "Client": {
           "$path": "src/StarterPlayerScripts"
         }
+      }
+    },
+
+    "StarterGui": {
+      "Source": {
+        "$path": "src/StarterGui"
       }
     },
 

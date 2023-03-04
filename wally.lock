@@ -5,11 +5,41 @@ registry = "test"
 [[package]]
 name = "dev/workflow-scaffold"
 version = "0.1.0"
-dependencies = [["Knit", "sleitnick/knit@1.4.7"]]
+dependencies = [["Knit", "sleitnick/knit@1.4.7"], ["cmdr", "evaera/cmdr@1.9.0"], ["redux", "roblox/rodux@3.0.0"], ["roact", "roblox/roact@1.4.4"], ["roact-rodux", "roblox/roact-rodux@0.5.1"], ["testez", "roblox/testez@0.4.1"]]
+
+[[package]]
+name = "evaera/cmdr"
+version = "1.9.0"
+dependencies = []
 
 [[package]]
 name = "evaera/promise"
 version = "4.0.0"
+dependencies = []
+
+[[package]]
+name = "roblox/roact"
+version = "1.4.4"
+dependencies = []
+
+[[package]]
+name = "roblox/roact-rodux"
+version = "0.5.1"
+dependencies = [["Roact", "roblox/roact@1.4.4"], ["Rodux", "roblox/rodux@4.0.0-rc.0"]]
+
+[[package]]
+name = "roblox/rodux"
+version = "3.0.0"
+dependencies = []
+
+[[package]]
+name = "roblox/rodux"
+version = "4.0.0-rc.0"
+dependencies = []
+
+[[package]]
+name = "roblox/testez"
+version = "0.4.1"
 dependencies = []
 
 [[package]]
