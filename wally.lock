@@ -5,7 +5,7 @@ registry = "test"
 [[package]]
 name = "dev/workflow-scaffold"
 version = "0.1.0"
-dependencies = [["Knit", "sleitnick/knit@1.4.7"], ["cmdr", "evaera/cmdr@1.9.0"], ["redux", "roblox/rodux@3.0.0"], ["roact", "roblox/roact@1.4.4"], ["roact-rodux", "roblox/roact-rodux@0.5.1"], ["testez", "roblox/testez@0.4.1"]]
+dependencies = [["Knit", "sleitnick/knit@1.4.7"], ["cmdr", "evaera/cmdr@1.9.0"], ["profileservice", "surnautica/profileservice@1.0.0"], ["redux", "roblox/rodux@3.0.0"], ["roact", "roblox/roact@1.4.4"], ["roact-rodux", "roblox/roact-rodux@0.5.1"], ["testez", "roblox/testez@0.4.1"], ["zoneplus", "mattschrubb/zoneplus@3.2.0"]]
 
 [[package]]
 name = "evaera/cmdr"
@@ -15,6 +15,11 @@ dependencies = []
 [[package]]
 name = "evaera/promise"
 version = "4.0.0"
+dependencies = []
+
+[[package]]
+name = "mattschrubb/zoneplus"
+version = "3.2.0"
 dependencies = []
 
 [[package]]
@@ -60,4 +65,9 @@ dependencies = []
 [[package]]
 name = "sleitnick/signal"
 version = "1.4.1"
+dependencies = []
+
+[[package]]
+name = "surnautica/profileservice"
+version = "1.0.0"
 dependencies = []
